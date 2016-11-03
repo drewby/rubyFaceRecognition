@@ -1,8 +1,14 @@
+# Delete Face List
+# ----------------
+#
+# This script deletes the facelist with ID "geeks". 
+
 require 'net/http'
 require 'net/https'
 require 'uri'
 require 'json'
 
+# Get your API key from https://www.microsoft.com/cognitive-services
 apiKey = "<APIKEY>"
 
 headers = {
